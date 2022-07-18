@@ -1,0 +1,119 @@
+
+*{font-size:12pt;}
+body{
+    margin:20pt;
+}
+header {
+    font-size: 30pt;
+    text-align: center;
+    border-bottom: 5px lightsteelblue dotted;
+
+}
+
+nav {
+    font-size: 24pt;
+    padding: 5pt;
+    display: flex;
+    align-items: center;
+justify-content: center;}
+
+nav > div, nav > button {
+    padding: 5pt;
+    border-left: 2pt;
+    margin: 5pt;
+}
+
+button {
+    background: pink;
+    border: none;
+    border-radius: 5pt;
+}
+
+
+h1, h2 {
+    color: white;
+    padding: 5pt;
+    border-radius: 5pt;
+    text-align: center;
+    background-color: hsl(2, 57%, 40%);
+    background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0, 0, 0, .3) 50px, rgba(0, 0, 0, .4) 53px, transparent 53px, transparent 63px, rgba(0, 0, 0, .4) 63px, rgba(0, 0, 0, .4) 66px, transparent 66px, transparent 116px, rgba(0, 0, 0, .5) 116px, rgba(0, 0, 0, .5) 166px, rgba(255, 255, 255, .2) 166px, rgba(255, 255, 255, .2) 169px, rgba(0, 0, 0, .5) 169px, rgba(0, 0, 0, .5) 179px, rgba(255, 255, 255, .2) 179px, rgba(255, 255, 255, .2) 182px, rgba(0, 0, 0, .5) 182px, rgba(0, 0, 0, .5) 232px, transparent 232px),
+    repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0, 0, 0, .4) 50px, rgba(0, 0, 0, .4) 53px, transparent 53px, transparent 63px, rgba(0, 0, 0, .4) 63px, rgba(0, 0, 0, .4) 66px, transparent 66px, transparent 116px, rgba(0, 0, 0, .5) 116px, rgba(0, 0, 0, .5) 166px, rgba(255, 255, 255, .2) 166px, rgba(255, 255, 255, .2) 169px, rgba(0, 0, 0, .5) 169px, rgba(0, 0, 0, .5) 179px, rgba(255, 255, 255, .2) 179px, rgba(255, 255, 255, .2) 182px, rgba(0, 0, 0, .5) 182px, rgba(0, 0, 0, .5) 232px, transparent 232px),
+    repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0, 0, 0, .2) 2px, rgba(0, 0, 0, .2) 3px, transparent 3px, transparent 5px, rgba(0, 0, 0, .2) 5px);
+}
+
+aside {
+    margin-left:10pt;
+    position: absolute;
+    top: 10%;
+    left: 0pt;
+    height: 80%;
+    border: 1px black solid;
+    border-radius: 5pt;
+    padding: 5pt;
+    width: 15%;
+}
+
+article {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    height: 80%;
+    border: 1px black solid;
+    border-radius: 5pt;
+    padding: 5pt;
+    margin-right:10pt;
+}
+
+footer {
+
+    position: fixed;
+    display: flex;
+    bottom: 5pt;
+    left: 0pt;
+    width: 100%;
+
+}
+
+footer > div {
+    border:1px black solid;
+    border-radius:15pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightsteelblue;
+    text-align: center;
+    padding:5pt;
+}
+
+table{
+
+
+    margin:auto;
+    line-height:15pt;
+    border-collapse: collapse;
+    text-align:center;
+}
+
+ul{
+margin-left:40pt;
+    line-height:1.5em;
+}
+
+table td{
+    border:1px white solid;
+    padding:5pt;
+    background-color: #b5d9d2;
+    border-radius: 7pt;
+
+
+}
+
+ruby:first-child{
+    color:orange;
+}
+
+.mathe{
+    width:60pt;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10pt;
+}
